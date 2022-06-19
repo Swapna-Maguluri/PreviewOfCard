@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MatIconModule} from '@angular/material/icon';
+import {MatDividerModule} from '@angular/material/divider';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {MatIconModule} from '@angular/material/icon';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
