@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 
 
@@ -14,7 +13,6 @@ import {MatDividerModule} from '@angular/material/divider';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule,
     MatDividerModule
   ],
   providers: [],

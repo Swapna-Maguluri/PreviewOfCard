@@ -9,15 +9,4 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'preview_card';
-
-  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer){
-    iconRegistry.addSvgIcon(
-      'iconEtherium',
-      sanitizer.bypassSecurityTrustResourceUrl('../assets/images/icon-ethereum.svg')
-    );
-    iconRegistry.addSvgIcon(
-      'iconClock',
-      sanitizer.bypassSecurityTrustResourceUrl('../assets/images/icon-clock.svg')
-    );
-  }
 }
